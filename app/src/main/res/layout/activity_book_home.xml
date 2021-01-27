@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/launch1"
+    tools:context=".BookHome" >
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="176dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/jjjjjj" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="394dp"
+        android:layout_height="459dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.120000005">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/viewtick"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="Space has revolutionized the life of human being by bringing variety of applications to the door step of every common man. It has kindled a natural curiosity and ever increasing interest in every individual, towards the Indian Space Program.  In order to spread awareness about the benefits of space technology, SPACEX is carrying out number of outreach activities. These activities are designed to address the people of every strata of our society. In addition, SPACEX also accommodates a limited number of visitors to witness launch from the space port of India, which is insignificant compared to the demand today. In order to cater this ever increasing demand for witnessing rocket launches, SPACEX has come out with a visitor’s gallery at Satish Dhawan Space Centre, Sriharikota.  In the first phase, 5,000 capacity Launch Viewing Gallery is constructed in the form of a stadium, and placed at an appropriate location with clear line of sight to the two launch pads of the Sriharikota Range. This facility is going to be inaugurated on 31st March 2019 by Chairman, SPACEX. The visitors can view launch from this gallery in real time with naked eyes. Large screens are also placed to visually explain the various intricacies of launcher and satellites. In addition, pre and post launch activities will be telecasted and explained through these screens to the viewers.\nSpace has revolutionized the life of human being by bringing variety of applications to the door step of every common man. It has kindled a natural curiosity and ever increasing interest in every individual, towards the Indian Space Program.  In order to spread awareness about the benefits of space technology, ISRO is carrying out number of outreach activities. These activities are designed to address the people of every strata of our society. In addition, ISRO also accommodates a limited number of visitors to witness launch from the space port of India, which is insignificant compared to the demand today. In order to cater this ever increasing demand for witnessing rocket launches, ISRO has come out with a visitor’s gallery at Satish Dhawan Space Centre, Sriharikota.  In the first phase, 5,000 capacity Launch Viewing Gallery is constructed in the form of a stadium, and placed at an appropriate location with clear line of sight to the two launch pads of the Sriharikota Range. This facility is going to be inaugurated on 31st March 2019 by Chairman, ISRO. The visitors can view launch from this gallery in real time with naked eyes. Large screens are also placed to visually explain the various intricacies of launcher and satellites. In addition, pre and post launch activities will be telecasted and explained through these screens to the viewers.\nSpace has revolutionized the life of human being by bringing variety of applications to the door step of every common man. It has kindled a natural curiosity and ever increasing interest in every individual, towards the Indian Space Program.  In order to spread awareness about the benefits of space technology, ISRO is carrying out number of outreach activities. These activities are designed to address the people of every strata of our society. In addition, ISRO also accommodates a limited number of visitors to witness launch from the space port of India, which is insignificant compared to the demand today. In order to cater this ever increasing demand for witnessing rocket launches, ISRO has come out with a visitor’s gallery at Satish Dhawan Space Centre, Sriharikota.  In the first phase, 5,000 capacity Launch Viewing Gallery is constructed in the form of a stadium, and placed at an appropriate location with clear line of sight to the two launch pads of the Sriharikota Range. This facility is going to be inaugurated on 31st March 2019 by Chairman, ISRO. The visitors can view launch from this gallery in real time with naked eyes. Large screens are also placed to visually explain the various intricacies of launcher and satellites. In addition, pre and post launch activities will be telecasted and explained through these screens to the viewers."
+                android:textColor="#FBF9F9" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="General Instructions"
+        android:textColor="#C5C0C0"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.858" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAUNCH VIEW GALLERY"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:onClick="bookform"
+        android:text="Continue Booking"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="viewtick"
+        android:text="Find My Ticket"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insert" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

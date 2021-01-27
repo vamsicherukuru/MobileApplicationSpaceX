@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rrrrrrr"
+    android:soundEffectsEnabled="true"
+    android:splitMotionEvents="true">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="286dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/jjjjjj" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:text="ASTRONAUT SELECTION 2021"
+        android:textColor="#FAF8F8"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="astroapplication"
+        android:text="GO to application form"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="397dp"
+        android:layout_height="393dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71000004">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you’re fascinated by the idea of humans traveling through space and curious about how that all works, you’ve come to the right place.\n\nThe selection process is made up of four rounds.\n\n1.During the initial round all candidates must submit an online application that consists of general information about the applicant, a motivation letter, a resume and a one minute video that answers provided questions and explains their reasoning.\n\n2.Candidates making it to the second round are required to obtain a medical statement of good health from their physician and will be invited for an individual video interview with Mars One.\n\n3.During the third round candidates will participate in group challenges. \n\n4.In the final selection round, international groups of four candidates will be placed in isolation to face multiple challenges. An individual in-depth Mars Settler Suitability Interview (MSSI) is also part of the final selection round."
+                android:textColor="#FFFDFD" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All candidates must submit an online application. The online application consists of general information about the applicant, a motivational letter, a resume and a one minute video in which the applicant answers some given questions and explains why he or she should be among the first humans to set foot on Mars. At this stage the potential candidates can submit their application in one of the 11 most used languages on Internet: English, Spanish, Portuguese, French, German, Russian, Arabic, Indonesian, Chinese Mandarin, Japanese, Korean. If an applicant decides to make his or her profile public, the application videos is available to be watched on community.mars-one.com. At the end of the first selection round, a team of Mars One experts will decide which applicants will pass to the next selection round.\n Round2 \n Mars One then narrows the remaining applicants down to Round Two candidates. These individuals need to provide a medical statement from their own physician stating that they have met all the defined requirements. Mars One's criteria for medical fitness are similar to those of NASA.  The remaining individuals will subsequently receive materials to study for general knowledge questions. Mars One's Chief Medical Officer Norbert Kraft interviews the members of this group individually about the knowledge questions and about their motivation to become part of this life-changing mission. The interviews are brief because it does not require a lot of time to determine which candidate is not suitable to fly to Mars. Therefore, the following selection rounds will be focused on determining who has what it takes to settle on Mars. The remaining candidates will have shown that they are healthy, smart, and dedicated."
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
